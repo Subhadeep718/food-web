@@ -239,7 +239,7 @@ main #HOME1.section .box .card .text h5 {
 main #HOME1.section .box .card .text p {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0;
 }
 main #PRODUCT.section {
@@ -270,9 +270,9 @@ main #PRODUCT.section .prom-text h3 {
   margin-bottom: 1rem;
 }
 main #PRODUCT.section .prom-text p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
 }
 main #PRODUCT.section .prom-text .btn {
@@ -358,9 +358,9 @@ main #PRODUCT1.section .prom-text h3 {
   margin-bottom: 1rem;
 }
 main #PRODUCT1.section .prom-text p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
 }
 main #PROM.section {
@@ -378,9 +378,9 @@ main #PROM.section h3 {
   margin-bottom: 1rem;
 }
 main #PROM.section p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
   padding: 0 14rem;
 }
@@ -410,9 +410,9 @@ main #PROM.section .prom-box .circle h4 {
   margin-bottom: 0.5rem;
 }
 main #PROM.section .prom-box .circle p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   padding: 0;
 }
 main #PRICE.section {
@@ -515,9 +515,9 @@ main #PRICE.section #my-package1 .item .price-box h6 {
   margin-bottom: 0.8rem;
 }
 main #PRICE.section #my-package1 .item .price-box p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 main #PRICE.section #my-package1 .item .price-box .btn:hover {
@@ -549,9 +549,9 @@ main #ABOUT.section .about {
   z-index: 1;
 }
 main #ABOUT.section .about p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
 }
 main #ABOUT.section .about h6 {
   font-size: 3.5rem;
@@ -623,9 +623,9 @@ main #CONTACT.section h3 {
   margin-bottom: 1rem;
 }
 main #CONTACT.section p {
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
   padding: 0 14rem;
 }
@@ -733,5 +733,5 @@ footer .footer-right ul li {
   font-weight: 200;
 }
 footer .footer-right ul li:first-child {
-  font-weight: 900;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

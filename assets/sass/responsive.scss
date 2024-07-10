@@ -7,6 +7,8 @@
 }
 
 @media only screen and (max-width: 1299px) {
+
+
     header {
         nav {
             padding: 1.5rem 0;
@@ -14,6 +16,7 @@
     }
 
     main {
+
         #HOME.section {
 
             .text-home {
@@ -23,13 +26,33 @@
                     font-size: 4rem;
                     line-height: 4rem;
                 }
+
+                P {
+                    font-size: 1rem;
+                    line-height: 1.1rem;
+                }
+
+
             }
         }
 
         #HOME1.section {
 
             P {
+                font-size: 1rem;
+                line-height: 1.1rem;
                 padding: 0 13rem;
+            }
+
+            .bg {
+                .card {
+                    .text {
+                        P {
+                            font-size: 1rem;
+                            line-height: 1.1rem;
+                        }
+                    }
+                }
             }
 
         }
@@ -38,21 +61,72 @@
         #PRODUCT1.section {
 
             .prom-text {
+                P {
+                    font-size: 1rem;
+                    line-height: 1.1rem;
+                }
+            }
+
+            .prom-text {
                 width: 35%;
             }
 
         }
 
+        #PROM.section {
+            p {
+                font-size: 1rem;
+                line-height: 1.1rem;
+            }
+
+            .prom-box {
+                .circle {
+                    p {
+                        font-size: 1rem;
+                        line-height: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        #PRICE.section {
+            #my-package1 {
+                .item {
+                    .price-box {
+                        p {
+                            font-size: 1rem;
+                            line-height: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
 
 
+
+        #ABOUT.section {
+            .about {
+
+                p {
+                    font-size: 1rem;
+                    line-height: 1.1rem;
+                }
+
+            }
+
+        }
+
+        #CONTACT.section {
+            p {
+                font-size: 1rem;
+                line-height: 1.1rem;
+            }
+        }
 
 
     }
-
-
-
-
-
 }
 
 @media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
