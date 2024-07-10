@@ -476,14 +476,6 @@ main #PRICE.section h3 {
   line-height: 4rem;
   margin-bottom: 3rem;
 }
-main #PRICE.section #my-package1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2%;
-  position: relative;
-  z-index: 1;
-}
 main #PRICE.section #my-package1 .item .price-box {
   background: #fff;
   width: 100%;
