@@ -476,7 +476,7 @@ main #PRICE.section h3 {
   line-height: 4rem;
   margin-bottom: 3rem;
 }
-main #PRICE.section #my-package1 .item .price-box {
+main #PRICE.section #my-package1 .item .price-box .price-box {
   background: #fff;
   width: 100%;
   height: auto;
@@ -484,38 +484,38 @@ main #PRICE.section #my-package1 .item .price-box {
   border-radius: 15px;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.368627451);
 }
-main #PRICE.section #my-package1 .item .price-box h4 {
+main #PRICE.section #my-package1 .item .price-box .price-box h4 {
   font-size: 1.6rem;
   line-height: 2rem;
   font-weight: 900;
 }
-main #PRICE.section #my-package1 .item .price-box .pack-img {
+main #PRICE.section #my-package1 .item .price-box .price-box .pack-img {
   width: 150px;
   height: auto;
   margin: 1rem auto;
 }
-main #PRICE.section #my-package1 .item .price-box .pack-img img {
+main #PRICE.section #my-package1 .item .price-box .price-box .pack-img img {
   height: auto;
   width: 100%;
   aspect-ratio: 3/3;
   border-radius: 50%;
 }
-main #PRICE.section #my-package1 .item .price-box h6 {
+main #PRICE.section #my-package1 .item .price-box .price-box h6 {
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 800;
   margin-bottom: 0.8rem;
 }
-main #PRICE.section #my-package1 .item .price-box p {
+main #PRICE.section #my-package1 .item .price-box .price-box p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
-main #PRICE.section #my-package1 .item .price-box .btn:hover {
+main #PRICE.section #my-package1 .item .price-box .price-box .btn:hover {
   background: #000;
 }
-main #ABOUT.section {
+main #PRICE.section #ABOUT.section {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -527,7 +527,7 @@ main #ABOUT.section {
   color: #fff;
   position: relative;
 }
-main #ABOUT.section::before {
+main #PRICE.section #ABOUT.section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -536,22 +536,22 @@ main #ABOUT.section::before {
   height: 100%;
   background: rgba(246, 76, 60, 0.3882352941);
 }
-main #ABOUT.section .about {
+main #PRICE.section #ABOUT.section .about {
   position: relative;
   z-index: 1;
 }
-main #ABOUT.section .about p {
+main #PRICE.section #ABOUT.section .about p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 500;
 }
-main #ABOUT.section .about h6 {
+main #PRICE.section #ABOUT.section .about h6 {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 4rem;
   margin-bottom: 0.5rem;
 }
-main #CONTACT.section {
+main #PRICE.section #CONTACT.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -563,69 +563,69 @@ main #CONTACT.section {
   width: 100%;
   height: 80vh;
 }
-main #CONTACT.section .box-bg {
+main #PRICE.section #CONTACT.section .box-bg {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
 }
-main #CONTACT.section .box-bg .img-bg {
+main #PRICE.section #CONTACT.section .box-bg .img-bg {
   position: absolute;
   height: auto;
 }
-main #CONTACT.section .box-bg .img-bg img {
+main #PRICE.section #CONTACT.section .box-bg .img-bg img {
   width: 100%;
   height: auto;
 }
-main #CONTACT.section .box-bg .img-bg.bg1 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg1 {
   width: 120px;
   top: 10%;
   right: 8%;
 }
-main #CONTACT.section .box-bg .img-bg.bg2 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg2 {
   width: 60px;
   bottom: 2%;
   right: 30%;
 }
-main #CONTACT.section .box-bg .img-bg.bg3 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg3 {
   width: 85px;
   bottom: 2%;
   left: 30%;
 }
-main #CONTACT.section .box-bg .img-bg.bg4 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg4 {
   width: 120px;
   top: 30%;
   left: -2%;
 }
-main #CONTACT.section .box-bg .img-bg.bg5 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg5 {
   width: 65px;
   top: 14%;
   left: 15%;
 }
-main #CONTACT.section .box-bg .img-bg.bg6 {
+main #PRICE.section #CONTACT.section .box-bg .img-bg.bg6 {
   width: 90px;
   top: 54%;
   right: 1%;
 }
-main #CONTACT.section h3 {
+main #PRICE.section #CONTACT.section h3 {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 4rem;
   margin-bottom: 1rem;
 }
-main #CONTACT.section p {
+main #PRICE.section #CONTACT.section p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
   padding: 0 14rem;
 }
-main #CONTACT.section .input {
+main #PRICE.section #CONTACT.section .input {
   position: relative;
   width: 600px;
 }
-main #CONTACT.section .input input {
+main #PRICE.section #CONTACT.section .input input {
   border: none;
   outline: none;
   width: 100%;
@@ -633,28 +633,28 @@ main #CONTACT.section .input input {
   padding: 0.9rem;
   border-radius: 50px;
 }
-main #CONTACT.section .input input::-moz-placeholder {
+main #PRICE.section #CONTACT.section .input input::-moz-placeholder {
   color: #000;
   font-weight: 100;
   font-size: 0.9rem;
   line-height: 1rem;
   padding-left: 0.9rem;
 }
-main #CONTACT.section .input input::placeholder {
+main #PRICE.section #CONTACT.section .input input::placeholder {
   color: #000;
   font-weight: 100;
   font-size: 0.9rem;
   line-height: 1rem;
   padding-left: 0.9rem;
 }
-main #CONTACT.section .input .btn {
+main #PRICE.section #CONTACT.section .input .btn {
   position: absolute;
   right: 0;
   top: 0;
   border-radius: 0 25px 25px 0;
   padding: 0.9rem 1rem;
 }
-main #CONTACT.section .input .btn:hover {
+main #PRICE.section #CONTACT.section .input .btn:hover {
   color: #f64b3c;
   background: #000;
 }

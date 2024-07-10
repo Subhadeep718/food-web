@@ -560,216 +560,213 @@ main {
     }
 
     #my-package1 {
-      // display: flex;
-      // align-items: center;
-      // justify-content: center;
-      // gap: 2%;
-      // position: relative;
-      // z-index: 1;
 
       .item {
         .price-box {
-          background: $white;
-          width: 100%;
-          height: auto;
-          padding: 2rem;
-          border-radius: 15px;
-          box-shadow: 0 0 20px 0px #0000005e;
-
-          h4 {
-            font-size: 1.6rem;
-            line-height: 2rem;
-            font-weight: 900;
-          }
-
-          .pack-img {
-            width: 150px;
+          .price-box {
+            background: $white;
+            width: 100%;
             height: auto;
-            margin: 1rem auto;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 0 20px 0px #0000005e;
 
-            img {
-              height: auto;
-              width: 100%;
-              aspect-ratio: 3 / 3;
-              border-radius: 50%;
+            h4 {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              font-weight: 900;
             }
-          }
 
-          h6 {
-            font-size: 1.2rem;
-            line-height: 2rem;
-            font-weight: 800;
-            margin-bottom: 0.8rem;
-          }
+            .pack-img {
+              width: 150px;
+              height: auto;
+              margin: 1rem auto;
 
-          p {
-            @include text-p;
-            margin-bottom: 1rem;
-          }
+              img {
+                height: auto;
+                width: 100%;
+                aspect-ratio: 3 / 3;
+                border-radius: 50%;
+              }
+            }
 
-          .btn {
-            &:hover {
-              background: #000;
+            h6 {
+              font-size: 1.2rem;
+              line-height: 2rem;
+              font-weight: 800;
+              margin-bottom: 0.8rem;
+            }
+
+            p {
+              @include text-p;
+              margin-bottom: 1rem;
+            }
+
+            .btn {
+              &:hover {
+                background: #000;
+              }
             }
           }
         }
       }
     }
-  }
 
-  #ABOUT.section {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 0rem 10rem;
-    align-items: center;
-    background: url(../img/s-bg.gif) center center / cover no-repeat;
-    width: 100%;
-    height: 80vh;
-    color: #fff;
-    position: relative;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
+    #ABOUT.section {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding: 0rem 10rem;
+      align-items: center;
+      background: url(../img/s-bg.gif) center center / cover no-repeat;
       width: 100%;
-      height: 100%;
-      background: #f64c3c63;
-    }
-
-    .about {
+      height: 80vh;
+      color: #fff;
       position: relative;
-      z-index: 1;
 
-      p {
-        @include text-p;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #f64c3c63;
       }
 
-      h6 {
+      .about {
+        position: relative;
+        z-index: 1;
+
+        p {
+          @include text-p;
+        }
+
+        h6 {
+          font-size: 3.5rem;
+          font-weight: 700;
+          line-height: 4rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    #CONTACT.section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: $bg-color;
+      position: relative;
+      color: $red;
+      width: 100%;
+      height: 80vh;
+
+      .box-bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+        .img-bg {
+          position: absolute;
+          height: auto;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .img-bg.bg1 {
+          width: 120px;
+          top: 10%;
+          right: 8%;
+        }
+
+        .img-bg.bg2 {
+          width: 60px;
+          bottom: 2%;
+          right: 30%;
+        }
+
+        .img-bg.bg3 {
+          width: 85px;
+          bottom: 2%;
+          left: 30%;
+        }
+
+        .img-bg.bg4 {
+          width: 120px;
+          top: 30%;
+          left: -2%;
+        }
+
+        .img-bg.bg5 {
+          width: 65px;
+          top: 14%;
+          left: 15%;
+        }
+
+        .img-bg.bg6 {
+          width: 90px;
+          top: 54%;
+          right: 1%;
+        }
+      }
+
+      h3 {
         font-size: 3.5rem;
         font-weight: 700;
         line-height: 4rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
       }
-    }
-  }
 
-  #CONTACT.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: $bg-color;
-    position: relative;
-    color: $red;
-    width: 100%;
-    height: 80vh;
+      p {
+        @include text-p;
+        margin-bottom: 1.5rem;
+        padding: 0 14rem;
+      }
 
-    .box-bg {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
+      .input {
+        position: relative;
+        width: 600px;
 
-      .img-bg {
-        position: absolute;
-        height: auto;
-
-        img {
+        input {
+          border: none;
+          outline: none;
           width: 100%;
           height: auto;
+          padding: 0.9rem;
+          border-radius: 50px;
+
+          &::placeholder {
+            color: #000;
+            font-weight: 100;
+            font-size: 0.9rem;
+            line-height: 1rem;
+            padding-left: 0.9rem;
+          }
         }
-      }
 
-      .img-bg.bg1 {
-        width: 120px;
-        top: 10%;
-        right: 8%;
-      }
+        .btn {
+          position: absolute;
+          right: 0;
+          top: 0;
+          border-radius: 0 25px 25px 0;
+          padding: 0.9rem 1rem;
 
-      .img-bg.bg2 {
-        width: 60px;
-        bottom: 2%;
-        right: 30%;
-      }
-
-      .img-bg.bg3 {
-        width: 85px;
-        bottom: 2%;
-        left: 30%;
-      }
-
-      .img-bg.bg4 {
-        width: 120px;
-        top: 30%;
-        left: -2%;
-      }
-
-      .img-bg.bg5 {
-        width: 65px;
-        top: 14%;
-        left: 15%;
-      }
-
-      .img-bg.bg6 {
-        width: 90px;
-        top: 54%;
-        right: 1%;
-      }
-    }
-
-    h3 {
-      font-size: 3.5rem;
-      font-weight: 700;
-      line-height: 4rem;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      @include text-p;
-      margin-bottom: 1.5rem;
-      padding: 0 14rem;
-    }
-
-    .input {
-      position: relative;
-      width: 600px;
-
-      input {
-        border: none;
-        outline: none;
-        width: 100%;
-        height: auto;
-        padding: 0.9rem;
-        border-radius: 50px;
-
-        &::placeholder {
-          color: #000;
-          font-weight: 100;
-          font-size: 0.9rem;
-          line-height: 1rem;
-          padding-left: 0.9rem;
-        }
-      }
-
-      .btn {
-        position: absolute;
-        right: 0;
-        top: 0;
-        border-radius: 0 25px 25px 0;
-        padding: 0.9rem 1rem;
-
-        &:hover {
-          color: $red;
-          background: #000;
+          &:hover {
+            color: $red;
+            background: #000;
+          }
         }
       }
     }
   }
+
 }
 
 footer {
