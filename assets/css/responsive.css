@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1299px) {
+  header nav {
+    padding: 1.5rem 0;
+  }
+  main #HOME.section .text-home {
+    padding-left: 1rem;
+  }
+  main #HOME.section .text-home h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  main #HOME1.section P {
+    padding: 0 13rem;
+  }
+  main #PRODUCT.section .prom-text,
+  main #PRODUCT1.section .prom-text {
+    width: 35%;
+  }
+}/*# sourceMappingURL=responsive.css.map */

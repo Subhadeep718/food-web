@@ -1,0 +1,21 @@
+{
+    "editor.mouseWheelZoom": true,
+    "livePreview.hostIP": "10.0.8.53",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Monokai",
+    "vsicons.dontShowNewVersionMessage": true,
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSave": true,
+    "livePreview.defaultPreviewPath": "10.0.8.53",
+    "git.autofetch": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.rootIsWorkspace": true
+}

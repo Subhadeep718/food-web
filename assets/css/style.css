@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+  font-family: "Kanit", sans-serif;
+  transition: all 0.5s ease-in;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
+}
+header nav .logo-img {
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+header nav .logo-img i {
+  color: #fff;
+  font-size: 3rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+header nav ul li {
+  margin-right: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-in;
+}
+header nav ul li:hover {
+  background: #f64b3c;
+  border-radius: 20px;
+}
+header nav ul li:hover a {
+  color: #000;
+}
+header nav ul li a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.5s ease-in;
+}
+
+main .btn {
+  border: none;
+  width: 150px;
+  border-radius: 25px;
+  height: auto;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  background: #f64b3c;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 800;
+  transition: all 0.5s ease-in;
+}
+main .btn:hover {
+  color: #f64b3c;
+  background: #000;
+}
+main #HOME.section {
+  display: flex;
+  flex-direction: column;
+  background: url("../../assets/img/bg.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 80vh;
+  align-items: start;
+  justify-content: center;
+  padding-left: 7rem;
+  color: #fff;
+}
+main #HOME.section .text-home {
+  height: auto;
+  width: 60%;
+  padding-left: 4rem;
+}
+main #HOME.section .text-home h2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+main #HOME.section .text-home p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+main #HOME.section .text-home .btn:hover {
+  background: #fff;
+}
+main #HOME1.section {
+  background: #f6eedf;
+  width: 100%;
+  height: auto;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+  color: #f64b3c;
+  z-index: 1;
+}
+main #HOME1.section h3 {
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+main #HOME1.section p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  padding: 0 20rem;
+}
+main #HOME1.section .box-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+main #HOME1.section .box-bg .img-bg {
+  position: absolute;
+  height: auto;
+}
+main #HOME1.section .box-bg .img-bg img {
+  width: 100%;
+  height: auto;
+}
+main #HOME1.section .box-bg .img-bg.bg1 {
+  width: 120px;
+  top: 10%;
+  right: 8%;
+}
+main #HOME1.section .box-bg .img-bg.bg2 {
+  width: 60px;
+  bottom: 2%;
+  right: 30%;
+}
+main #HOME1.section .box-bg .img-bg.bg3 {
+  width: 85px;
+  bottom: 2%;
+  left: 30%;
+}
+main #HOME1.section .box-bg .img-bg.bg4 {
+  width: 120px;
+  top: 30%;
+  left: -2%;
+}
+main #HOME1.section .box-bg .img-bg.bg5 {
+  width: 65px;
+  top: 14%;
+  left: 15%;
+}
+main #HOME1.section .box-bg .img-bg.bg6 {
+  width: 90px;
+  top: 54%;
+  right: 1%;
+}
+main #HOME1.section .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+main #HOME1.section .box .card {
+  width: 100%;
+  height: auto;
+}
+main #HOME1.section .box .card .card-img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+main #HOME1.section .box .card .card-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+main #HOME1.section .box .card .text {
+  color: #f64b3c;
+  margin-top: 0.5rem;
+}
+main #HOME1.section .box .card .text h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+main #HOME1.section .box .card .text p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  padding: 0;
+}
+main #PRODUCT.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: #f64b3c;
+}
+main #PRODUCT.section .prom-img {
+  width: 20%;
+  padding: 3rem 0;
+}
+main #PRODUCT.section .prom-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+main #PRODUCT.section .prom-text {
+  width: 30%;
+  color: #fff;
+}
+main #PRODUCT.section .prom-text h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+main #PRODUCT.section .prom-text p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+main #PRODUCT.section .prom-text .btn {
+  color: #f64b3c;
+  background: #fff;
+}
+main #PRODUCT.section .prom-text .btn:hover {
+  background: #000;
+}
+main #PRODUCT1.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: #f6eedf;
+  position: relative;
+  z-index: 1;
+}
+main #PRODUCT1.section .box-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+main #PRODUCT1.section .box-bg .img-bg {
+  position: absolute;
+  height: auto;
+}
+main #PRODUCT1.section .box-bg .img-bg img {
+  width: 100%;
+  height: auto;
+}
+main #PRODUCT1.section .img-bg.bg1 {
+  width: 120px;
+  top: 10%;
+  right: 4%;
+}
+main #PRODUCT1.section .img-bg.bg2 {
+  width: 60px;
+  bottom: 2%;
+  right: 30%;
+}
+main #PRODUCT1.section .img-bg.bg3 {
+  width: 85px;
+  bottom: 2%;
+  left: 30%;
+}
+main #PRODUCT1.section .img-bg.bg4 {
+  width: 120px;
+  top: 30%;
+  left: -2%;
+}
+main #PRODUCT1.section .img-bg.bg5 {
+  width: 65px;
+  top: 10%;
+  left: 15%;
+}
+main #PRODUCT1.section .img-bg.bg6 {
+  width: 90px;
+  top: 54%;
+  right: 1%;
+}
+main #PRODUCT1.section .prom-img {
+  width: 20%;
+  padding: 3rem 0;
+}
+main #PRODUCT1.section .prom-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+main #PRODUCT1.section .prom-text {
+  width: 30%;
+  color: #f64b3c;
+}
+main #PRODUCT1.section .prom-text h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+main #PRODUCT1.section .prom-text p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+main #PROM.section {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #f64b3c;
+}
+main #PROM.section h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+main #PROM.section p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  padding: 0 14rem;
+}
+main #PROM.section .prom-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+main #PROM.section .prom-box .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #PROM.section .prom-box .circle h4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 0.5rem;
+}
+main #PROM.section .prom-box .circle p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  padding: 0;
+}
+main #PRICE.section {
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+  text-align: center;
+  color: #f64b3c;
+  background: #f6eedf;
+  position: relative;
+}
+main #PRICE.section .box-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+main #PRICE.section .box-bg .img-bg {
+  position: absolute;
+  height: auto;
+}
+main #PRICE.section .box-bg .img-bg img {
+  width: 100%;
+  height: auto;
+}
+main #PRICE.section .img-bg.bg1 {
+  width: 120px;
+  top: 10%;
+  right: 4%;
+}
+main #PRICE.section .img-bg.bg2 {
+  width: 60px;
+  bottom: 2%;
+  right: 30%;
+}
+main #PRICE.section .img-bg.bg3 {
+  width: 85px;
+  bottom: 2%;
+  left: 30%;
+}
+main #PRICE.section .img-bg.bg4 {
+  width: 120px;
+  top: 30%;
+  left: -2%;
+}
+main #PRICE.section .img-bg.bg5 {
+  width: 65px;
+  top: 10%;
+  left: 15%;
+}
+main #PRICE.section .img-bg.bg6 {
+  width: 90px;
+  top: 54%;
+  right: 1%;
+}
+main #PRICE.section h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 3rem;
+}
+main #PRICE.section #my-package1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  position: relative;
+  z-index: 1;
+}
+main #PRICE.section #my-package1 .item .price-box {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.368627451);
+}
+main #PRICE.section #my-package1 .item .price-box h4 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+main #PRICE.section #my-package1 .item .price-box .pack-img {
+  width: 150px;
+  height: auto;
+  margin: 1rem auto;
+}
+main #PRICE.section #my-package1 .item .price-box .pack-img img {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 3/3;
+  border-radius: 50%;
+}
+main #PRICE.section #my-package1 .item .price-box h6 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+main #PRICE.section #my-package1 .item .price-box p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+main #PRICE.section #my-package1 .item .price-box .btn:hover {
+  background: #000;
+}
+main #ABOUT.section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0rem 10rem;
+  align-items: center;
+  background: url(../img/s-bg.gif) center center/cover no-repeat;
+  width: 100%;
+  height: 80vh;
+  color: #fff;
+  position: relative;
+}
+main #ABOUT.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(246, 76, 60, 0.3882352941);
+}
+main #ABOUT.section .about {
+  position: relative;
+  z-index: 1;
+}
+main #ABOUT.section .about p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+main #ABOUT.section .about h6 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 0.5rem;
+}
+main #CONTACT.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f6eedf;
+  position: relative;
+  color: #f64b3c;
+  width: 100%;
+  height: 80vh;
+}
+main #CONTACT.section .box-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+main #CONTACT.section .box-bg .img-bg {
+  position: absolute;
+  height: auto;
+}
+main #CONTACT.section .box-bg .img-bg img {
+  width: 100%;
+  height: auto;
+}
+main #CONTACT.section .box-bg .img-bg.bg1 {
+  width: 120px;
+  top: 10%;
+  right: 8%;
+}
+main #CONTACT.section .box-bg .img-bg.bg2 {
+  width: 60px;
+  bottom: 2%;
+  right: 30%;
+}
+main #CONTACT.section .box-bg .img-bg.bg3 {
+  width: 85px;
+  bottom: 2%;
+  left: 30%;
+}
+main #CONTACT.section .box-bg .img-bg.bg4 {
+  width: 120px;
+  top: 30%;
+  left: -2%;
+}
+main #CONTACT.section .box-bg .img-bg.bg5 {
+  width: 65px;
+  top: 14%;
+  left: 15%;
+}
+main #CONTACT.section .box-bg .img-bg.bg6 {
+  width: 90px;
+  top: 54%;
+  right: 1%;
+}
+main #CONTACT.section h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+main #CONTACT.section p {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  padding: 0 14rem;
+}
+main #CONTACT.section .input {
+  position: relative;
+  width: 600px;
+}
+main #CONTACT.section .input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: auto;
+  padding: 0.9rem;
+  border-radius: 50px;
+}
+main #CONTACT.section .input input::-moz-placeholder {
+  color: #000;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding-left: 0.9rem;
+}
+main #CONTACT.section .input input::placeholder {
+  color: #000;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding-left: 0.9rem;
+}
+main #CONTACT.section .input .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 25px 25px 0;
+  padding: 0.9rem 1rem;
+}
+main #CONTACT.section .input .btn:hover {
+  color: #f64b3c;
+  background: #000;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  gap: 20%;
+}
+footer .footer-left {
+  width: 40%;
+  height: auto;
+  padding: 3rem;
+}
+footer .footer-left h3 {
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+footer .footer-left p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+footer .footer-left .icon {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer .footer-left .icon i {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.7rem;
+  transition: all 0.5s ease-in;
+}
+footer .footer-left .icon i:hover {
+  background: #fff;
+  color: #f64b3c;
+}
+footer .footer-right {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+  gap: 9%;
+}
+footer .footer-right ul {
+  width: 40%;
+}
+footer .footer-right ul li {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: 200;
+}
+footer .footer-right ul li:first-child {
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1599px) {
+    // header nav ul {
+    //   width: 60%;
+    // }
+}
+
+@media only screen and (max-width: 1299px) {
+    header {
+        nav {
+            padding: 1.5rem 0;
+        }
+    }
+
+    main {
+        #HOME.section {
+
+            .text-home {
+                padding-left: 1rem;
+
+                h2 {
+                    font-size: 4rem;
+                    line-height: 4rem;
+                }
+            }
+        }
+
+        #HOME1.section {
+
+            P {
+                padding: 0 13rem;
+            }
+
+        }
+
+        #PRODUCT.section,
+        #PRODUCT1.section {
+
+            .prom-text {
+                width: 35%;
+            }
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 992px) {}
