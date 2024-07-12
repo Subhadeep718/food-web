@@ -131,9 +131,6 @@ main #HOME.section .text-home p {
   font-weight: 500;
   margin-bottom: 2rem;
 }
-main #HOME.section .text-home .btn:hover {
-  background: #fff;
-}
 main #HOME1.section {
   background: #f6eedf;
   width: 100%;

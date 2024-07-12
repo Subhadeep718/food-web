@@ -59,4 +59,10 @@
   main #HOME.section {
     padding-left: 5rem;
   }
+  main #HOME.section .text-home h2 {
+    font-size: 3.7rem;
+  }
+  main #HOME1.section p {
+    padding: 0 5rem;
+  }
 }/*# sourceMappingURL=responsive.css.map */
