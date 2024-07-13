@@ -2,6 +2,9 @@
   header nav {
     padding: 1.5rem 0;
   }
+  header nav ul {
+    width: 60%;
+  }
   main #HOME.section .text-home {
     padding-left: 1rem;
   }
@@ -64,5 +67,41 @@
   }
   main #HOME1.section p {
     padding: 0 5rem;
+  }
+  main #HOME1.section .box-bg .img-bg.bg1 {
+    width: 76px;
+    top: 5%;
+    right: 4%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 5%;
+    right: 25%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 5%;
+    left: 25%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg4 {
+    width: 90px;
+    top: 29%;
+    left: -2%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 7%;
+    left: 10%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg6 {
+    width: 65px;
+    top: 62%;
+    right: 1%;
+  }
+  main #PRODUCT.section .prom-img {
+    width: 30%;
+  }
+  main #PRODUCT1.section .prom-img {
+    width: 30%;
   }
 }/*# sourceMappingURL=responsive.css.map */

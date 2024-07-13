@@ -1,163 +1,197 @@
-@media only screen and (max-width: 1920px) {}
+@media only screen and (max-width: 1920px) {
+}
 
 @media only screen and (max-width: 1599px) {
-    // header nav ul {
-    //   width: 60%;
-    // }
+  // header nav ul {
+  //   width: 60%;
+  // }
 }
 
 @media only screen and (max-width: 1299px) {
+  header {
+    nav {
+      padding: 1.5rem 0;
+      ul {
+        width: 60%;
+      }
+    }
+  }
 
+  main {
+    #HOME.section {
+      .text-home {
+        padding-left: 1rem;
 
-    header {
-        nav {
-            padding: 1.5rem 0;
+        h2 {
+          font-size: 4rem;
+          line-height: 4rem;
         }
+
+        P {
+          font-size: 1rem;
+          line-height: 1.1rem;
+        }
+      }
     }
 
-    main {
+    #HOME1.section {
+      P {
+        font-size: 1rem;
+        line-height: 1.1rem;
+        padding: 0 13rem;
+      }
 
-        #HOME.section {
-
-            .text-home {
-                padding-left: 1rem;
-
-                h2 {
-                    font-size: 4rem;
-                    line-height: 4rem;
-                }
-
-                P {
-                    font-size: 1rem;
-                    line-height: 1.1rem;
-                }
-
-
-            }
-        }
-
-        #HOME1.section {
-
+      .bg {
+        .card {
+          .text {
             P {
-                font-size: 1rem;
-                line-height: 1.1rem;
-                padding: 0 13rem;
+              font-size: 1rem;
+              line-height: 1.1rem;
             }
-
-
-            .bg {
-                .card {
-                    .text {
-                        P {
-                            font-size: 1rem;
-                            line-height: 1.1rem;
-                        }
-                    }
-                }
-            }
-
+          }
         }
-
-        #PRODUCT.section,
-        #PRODUCT1.section {
-
-            .prom-text {
-                P {
-                    font-size: 1rem;
-                    line-height: 1.1rem;
-                }
-            }
-
-            .prom-text {
-                width: 35%;
-            }
-
-        }
-
-        #PROM.section {
-            p {
-                font-size: 1rem;
-                line-height: 1.1rem;
-            }
-
-            .prom-box {
-                .circle {
-                    p {
-                        font-size: 1rem;
-                        line-height: 1.1rem;
-                    }
-                }
-            }
-        }
-
-        #PRICE.section {
-            #my-package1 {
-                .item {
-                    .price-box {
-                        p {
-                            font-size: 1rem;
-                            line-height: 1.1rem;
-                        }
-                    }
-                }
-            }
-        }
-
-
-
-        #ABOUT.section {
-            .about {
-
-                p {
-                    font-size: 1rem;
-                    line-height: 1.1rem;
-                }
-
-            }
-
-        }
-
-        #CONTACT.section {
-            p {
-                font-size: 1rem;
-                line-height: 1.1rem;
-            }
-        }
-
-
+      }
     }
+
+    #PRODUCT.section,
+    #PRODUCT1.section {
+      .prom-text {
+        P {
+          font-size: 1rem;
+          line-height: 1.1rem;
+        }
+      }
+
+      .prom-text {
+        width: 35%;
+      }
+    }
+
+    #PROM.section {
+      p {
+        font-size: 1rem;
+        line-height: 1.1rem;
+      }
+
+      .prom-box {
+        .circle {
+          p {
+            font-size: 1rem;
+            line-height: 1.1rem;
+          }
+        }
+      }
+    }
+
+    #PRICE.section {
+      #my-package1 {
+        .item {
+          .price-box {
+            p {
+              font-size: 1rem;
+              line-height: 1.1rem;
+            }
+          }
+        }
+      }
+    }
+
+    #ABOUT.section {
+      .about {
+        p {
+          font-size: 1rem;
+          line-height: 1.1rem;
+        }
+      }
+    }
+
+    #CONTACT.section {
+      p {
+        font-size: 1rem;
+        line-height: 1.1rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) {
+  header nav ul {
+    width: 70%;
+  }
 
-    header nav ul {
-        width: 70%;
+  main {
+    #HOME.section {
+      padding-left: 5rem;
+
+      .text-home {
+        h2 {
+          font-size: 3.7rem;
+        }
+      }
     }
 
-    main{
-
-        #HOME.section{
-            padding-left: 5rem;
-
-            .text-home{
-                h2{
-                    font-size: 3.7rem;
-                }
-            }
+    #HOME1.section {
+      p {
+        padding: 0 5rem;
+      }
+      .box-bg {
+        .img-bg.bg1 {
+          width: 76px;
+          top: 5%;
+          right: 4%;
         }
 
-        #HOME1.section{
-
-            p{
-                padding: 0 5rem;
-            }
+        .img-bg.bg2 {
+            width: 50px;
+            bottom: 5%;
+            right: 25%;
         }
+
+        .img-bg.bg3 {
+            width: 80px;
+            bottom: 5%;
+            left: 25%;
+        }
+
+        .img-bg.bg4 {
+            width: 90px;
+            top: 29%;
+            left: -2%;
+        }
+
+        .img-bg.bg5 {
+            width: 50px;
+            top: 7%;
+            left: 10%;
+        }
+
+        .img-bg.bg6 {
+            width: 65px;
+            top: 62%;
+            right: 1%;
+        }
+      }
     }
 
+    #PRODUCT.section {
+      .prom-img {
+        width: 30%;
+      }
+    }
+
+    #PRODUCT1.section {
+      .prom-img {
+        width: 30%;
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+}
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+}
