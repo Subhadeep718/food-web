@@ -217,6 +217,10 @@
     margin-right: 0.2rem;
     padding: 0.5rem 0.6rem;
   }
+  main .btn {
+    width: 125px;
+    font-size: 0.7rem;
+  }
   main #HOME.section {
     padding-left: 3rem;
   }
@@ -227,24 +231,161 @@
     font-size: 2.7rem;
     line-height: 3rem;
   }
-  main #HOME.section .text-home #HOME1.section h3 {
+  main #HOME.section .text-home p {
+    margin-bottom: 1rem;
+  }
+  main #HOME1.section h3 {
     font-size: 2rem;
     line-height: 2.2rem;
+    margin-bottom: 0.6rem;
   }
-  main #HOME.section .text-home #HOME1.section p {
+  main #HOME1.section p {
     padding: 0 3rem;
+    margin-bottom: 1rem;
   }
-  main #HOME.section .text-home #HOME1.section .box {
+  main #HOME1.section .box-bg .img-bg.bg1 {
+    width: 70px;
+    top: 3%;
+    right: 5%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 3%;
+    right: 20%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 3%;
+    left: 20%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg4 {
+    width: 70px;
+    top: 35%;
+    left: -3%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 5%;
+    left: 15%;
+  }
+  main #HOME1.section .box-bg .img-bg.bg6 {
+    width: 60px;
+    top: 32%;
+    right: 1%;
+  }
+  main #HOME1.section .box {
     gap: 30px;
   }
-  main #HOME.section .text-home #HOME1.section .box .card .card-img {
+  main #HOME1.section .box .card .card-img {
     width: 150px;
   }
-  main #HOME.section .text-home #HOME1.section .box .card .text h5 {
+  main #HOME1.section .box .card .text h5 {
     font-size: 1.3rem;
     margin-bottom: 0.4rem;
   }
-  main #HOME.section .text-home #HOME1.section .box .card .text p {
+  main #HOME1.section .box .card .text p {
     font-size: 1rem;
+  }
+  main #PRODUCT.section .prom-img,
+  main #PRODUCT1.section .prom-img {
+    width: 35%;
+  }
+  main #PRODUCT.section .prom-text h3,
+  main #PRODUCT1.section .prom-text h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 0.6rem;
+  }
+  main #PRODUCT.section .prom-text p,
+  main #PRODUCT1.section .prom-text p {
+    margin-bottom: 1rem;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg1,
+  main #PRODUCT1.section .box-bg .img-bg.bg1 {
+    width: 70px;
+    top: 3%;
+    right: 5%;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg2,
+  main #PRODUCT1.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 3%;
+    right: 20%;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg3,
+  main #PRODUCT1.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 3%;
+    left: 31%;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg4,
+  main #PRODUCT1.section .box-bg .img-bg.bg4 {
+    width: 70px;
+    top: 35%;
+    left: -5%;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg5,
+  main #PRODUCT1.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 3%;
+    left: 25%;
+  }
+  main #PRODUCT.section .box-bg .img-bg.bg6,
+  main #PRODUCT1.section .box-bg .img-bg.bg6 {
+    width: 60px;
+    top: 50%;
+    right: 1%;
+  }
+  main #PROM.section h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 0.6rem;
+  }
+  main #PROM.section p {
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+  }
+  main #PROM.section .prom-box .circle {
+    width: 130px;
+    height: 130px;
+  }
+  main #PROM.section .prom-box .circle h4 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  main #PRICE.section .box-bg .img-bg.bg1 {
+    width: 70px;
+    top: 3%;
+    right: 5%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 3%;
+    right: 20%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 3%;
+    left: 20%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg4 {
+    width: 70px;
+    top: 35%;
+    left: -3%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 5%;
+    left: 15%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg6 {
+    width: 60px;
+    top: 32%;
+    right: 1%;
+  }
+  main #PRICE.section h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=responsive.css.map */

@@ -351,6 +351,11 @@
   }
 
   main {
+    .btn {
+      width: 125px;
+      font-size: 0.7rem;
+    }
+
     #HOME.section {
       padding-left: 3rem;
 
@@ -361,32 +366,201 @@
           line-height: 3rem;
         }
 
-        #HOME1.section {
-          h3 {
-            font-size: 2rem;
-            line-height: 2.2rem;
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    #HOME1.section {
+      h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: 0.6rem;
+      }
+      p {
+        padding: 0 3rem;
+        margin-bottom: 1rem;
+      }
+      .box-bg {
+        .img-bg.bg1 {
+          width: 70px;
+          top: 3%;
+          right: 5%;
+        }
+
+        .img-bg.bg2 {
+          width: 50px;
+          bottom: 3%;
+          right: 20%;
+        }
+
+        .img-bg.bg3 {
+          width: 80px;
+          bottom: 3%;
+          left: 20%;
+        }
+
+        .img-bg.bg4 {
+          width: 70px;
+          top: 35%;
+          left: -3%;
+        }
+
+        .img-bg.bg5 {
+          width: 50px;
+          top: 5%;
+          left: 15%;
+        }
+
+        .img-bg.bg6 {
+          width: 60px;
+          top: 32%;
+          right: 1%;
+        }
+      }
+
+      .box {
+        gap: 30px;
+        .card {
+          .card-img {
+            width: 150px;
           }
-          p {
-            padding: 0 3rem;
-          }
-          .box {
-            gap: 30px;
-            .card {
-              .card-img {
-                width: 150px;
-              }
-              .text {
-                h5 {
-                  font-size: 1.3rem;
-                  margin-bottom: 0.4rem;
-                }
-                p {
-                  font-size: 1rem;
-                }
-              }
+          .text {
+            h5 {
+              font-size: 1.3rem;
+              margin-bottom: 0.4rem;
+            }
+            p {
+              font-size: 1rem;
             }
           }
         }
+      }
+    }
+
+    #PRODUCT.section,
+    #PRODUCT1.section {
+      .prom-img {
+        width: 35%;
+      }
+
+      .prom-text {
+        h3 {
+          font-size: 2rem;
+          line-height: 2.2rem;
+          margin-bottom: 0.6rem;
+        }
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .box-bg {
+        .img-bg.bg1 {
+          width: 70px;
+          top: 3%;
+          right: 5%;
+        }
+
+        .img-bg.bg2 {
+          width: 50px;
+          bottom: 3%;
+          right: 20%;
+        }
+
+        .img-bg.bg3 {
+          width: 80px;
+          bottom: 3%;
+          left: 31%;
+        }
+
+        .img-bg.bg4 {
+          width: 70px;
+          top: 35%;
+          left: -5%;
+        }
+
+        .img-bg.bg5 {
+          width: 50px;
+          top: 3%;
+          left: 25%;
+        }
+
+        .img-bg.bg6 {
+          width: 60px;
+          top: 50%;
+          right: 1%;
+        }
+      }
+    }
+
+    #PROM.section {
+      h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: 0.6rem;
+      }
+      p {
+        padding: 0 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .prom-box {
+        .circle {
+          width: 130px;
+          height: 130px;
+          h4 {
+            font-size: 2rem;
+            line-height: 2rem;
+          }
+        }
+      }
+    }
+
+    #PRICE.section {
+      .box-bg {
+        .img-bg.bg1 {
+          width: 70px;
+          top: 3%;
+          right: 5%;
+        }
+
+        .img-bg.bg2 {
+          width: 50px;
+          bottom: 3%;
+          right: 20%;
+        }
+
+        .img-bg.bg3 {
+          width: 80px;
+          bottom: 3%;
+          left: 20%;
+        }
+
+        .img-bg.bg4 {
+          width: 70px;
+          top: 35%;
+          left: -3%;
+        }
+
+        .img-bg.bg5 {
+          width: 50px;
+          top: 5%;
+          left: 15%;
+        }
+
+        .img-bg.bg6 {
+          width: 60px;
+          top: 32%;
+          right: 1%;
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: 2rem;
       }
     }
   }
