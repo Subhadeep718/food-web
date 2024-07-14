@@ -211,4 +211,40 @@
     top: 62%;
     right: 1%;
   }
+}
+@media only screen and (max-width: 768px) {
+  header nav ul li {
+    margin-right: 0.2rem;
+    padding: 0.5rem 0.6rem;
+  }
+  main #HOME.section {
+    padding-left: 3rem;
+  }
+  main #HOME.section .text-home {
+    width: 70%;
+  }
+  main #HOME.section .text-home h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
+  main #HOME.section .text-home #HOME1.section h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  main #HOME.section .text-home #HOME1.section p {
+    padding: 0 3rem;
+  }
+  main #HOME.section .text-home #HOME1.section .box {
+    gap: 30px;
+  }
+  main #HOME.section .text-home #HOME1.section .box .card .card-img {
+    width: 150px;
+  }
+  main #HOME.section .text-home #HOME1.section .box .card .text h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+  main #HOME.section .text-home #HOME1.section .box .card .text p {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=responsive.css.map */
