@@ -183,11 +183,169 @@
       .prom-img {
         width: 30%;
       }
+      .box-bg {
+        .img-bg.bg1 {
+          width: 76px;
+          top: 5%;
+          right: 4%;
+        }
+
+        .img-bg.bg2 {
+            width: 50px;
+            bottom: 5%;
+            right: 25%;
+        }
+
+        .img-bg.bg3 {
+            width: 80px;
+            bottom: 1%;
+            left: 30%;
+        }
+
+        .img-bg.bg4 {
+            width: 90px;
+            top: 29%;
+            left: -4%;
+        }
+
+        .img-bg.bg5 {
+            width: 50px;
+            top: 3%;
+            left: 10%;
+        }
+
+        .img-bg.bg6 {
+            width: 65px;
+            top: 62%;
+            right: 1%;
+        }
+      }
     }
+
+    #PROM.section {
+      p{
+        padding: 0 6rem;
+      }
+
+      .prom-box{
+        .circle{
+          width: 180px;
+          height: 180px;
+          h4{
+            font-size: 2.8rem;
+            line-height: 3rem;
+          }
+        }
+
+      } 
+
+    }
+
+    #PRICE.section {
+      .box-bg {
+        .img-bg.bg1 {
+          width: 76px;
+          top: 5%;
+          right: 4%;
+        }
+
+        .img-bg.bg2 {
+            width: 50px;
+            bottom: 5%;
+            right: 25%;
+        }
+
+        .img-bg.bg3 {
+            width: 80px;
+            bottom: 5%;
+            left: 25%;
+        }
+
+        .img-bg.bg4 {
+            width: 90px;
+            top: 29%;
+            left: -2%;
+        }
+
+        .img-bg.bg5 {
+            width: 50px;
+            top: 7%;
+            left: 10%;
+        }
+
+        .img-bg.bg6 {
+            width: 65px;
+            top: 62%;
+            right: 1%;
+        }
+      }
+    }
+
+    #ABOUT.section {
+      padding: 0rem 5rem;
+    }
+    
+     #CONTACT.section{
+      p{
+        padding: 0 5rem;
+      }
+
+      .box-bg {
+        .img-bg.bg1 {
+          width: 76px;
+          top: 5%;
+          right: 4%;
+        }
+
+        .img-bg.bg2 {
+            width: 50px;
+            bottom: 5%;
+            right: 25%;
+        }
+
+        .img-bg.bg3 {
+            width: 80px;
+            bottom: 5%;
+            left: 25%;
+        }
+
+        .img-bg.bg4 {
+            width: 90px;
+            top: 29%;
+            left: -2%;
+        }
+
+        .img-bg.bg5 {
+            width: 50px;
+            top: 7%;
+            left: 10%;
+        }
+
+        .img-bg.bg6 {
+            width: 65px;
+            top: 62%;
+            right: 1%;
+        }
+      }
+
+     }
+
   }
+
+  // footer{
+  //   footer-left{
+
+  //   }
+  //   footer-right{
+      
+  //   }
+  // }
 }
 
 @media only screen and (max-width: 768px) {
+
+  
+
 }
 
 @media only screen and (max-width: 576px) {

@@ -104,4 +104,111 @@
   main #PRODUCT1.section .prom-img {
     width: 30%;
   }
+  main #PRODUCT1.section .box-bg .img-bg.bg1 {
+    width: 76px;
+    top: 5%;
+    right: 4%;
+  }
+  main #PRODUCT1.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 5%;
+    right: 25%;
+  }
+  main #PRODUCT1.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 1%;
+    left: 30%;
+  }
+  main #PRODUCT1.section .box-bg .img-bg.bg4 {
+    width: 90px;
+    top: 29%;
+    left: -4%;
+  }
+  main #PRODUCT1.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 3%;
+    left: 10%;
+  }
+  main #PRODUCT1.section .box-bg .img-bg.bg6 {
+    width: 65px;
+    top: 62%;
+    right: 1%;
+  }
+  main #PROM.section p {
+    padding: 0 6rem;
+  }
+  main #PROM.section .prom-box .circle {
+    width: 180px;
+    height: 180px;
+  }
+  main #PROM.section .prom-box .circle h4 {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  main #PRICE.section .box-bg .img-bg.bg1 {
+    width: 76px;
+    top: 5%;
+    right: 4%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 5%;
+    right: 25%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 5%;
+    left: 25%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg4 {
+    width: 90px;
+    top: 29%;
+    left: -2%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 7%;
+    left: 10%;
+  }
+  main #PRICE.section .box-bg .img-bg.bg6 {
+    width: 65px;
+    top: 62%;
+    right: 1%;
+  }
+  main #ABOUT.section {
+    padding: 0rem 5rem;
+  }
+  main #CONTACT.section p {
+    padding: 0 5rem;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg1 {
+    width: 76px;
+    top: 5%;
+    right: 4%;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg2 {
+    width: 50px;
+    bottom: 5%;
+    right: 25%;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg3 {
+    width: 80px;
+    bottom: 5%;
+    left: 25%;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg4 {
+    width: 90px;
+    top: 29%;
+    left: -2%;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg5 {
+    width: 50px;
+    top: 7%;
+    left: 10%;
+  }
+  main #CONTACT.section .box-bg .img-bg.bg6 {
+    width: 65px;
+    top: 62%;
+    right: 1%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
