@@ -443,4 +443,17 @@
   footer .footer-left h3 {
     margin-bottom: 0.5rem;
   }
+}
+@media only screen and (max-width: 576px) {
+  main #HOME.section {
+    padding-left: 1rem;
+  }
+  main #HOME.section .text-home h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  main #HOME.section .text-home P {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
 }/*# sourceMappingURL=responsive.css.map */
