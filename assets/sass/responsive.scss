@@ -563,6 +563,77 @@
         margin-bottom: 2rem;
       }
     }
+
+    #ABOUT.section {
+      padding: 0rem 3rem;
+
+      .about {
+        h6 {
+          font-size: 2rem;
+          line-height: 2.2rem;
+          margin-bottom: 0.6rem;
+        }
+      }
+    }
+
+    #CONTACT.section {
+      height: 60vh;
+      h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: 0.6rem;
+      }
+
+      .input {
+        width: 500px;
+      }
+
+      .box-bg {
+        .img-bg.bg1 {
+          width: 70px;
+          top: 3%;
+          right: 5%;
+        }
+
+        .img-bg.bg2 {
+          width: 50px;
+          bottom: 3%;
+          right: 20%;
+        }
+
+        .img-bg.bg3 {
+          width: 80px;
+          bottom: 3%;
+          left: 20%;
+        }
+
+        .img-bg.bg4 {
+          width: 70px;
+          top: 35%;
+          left: -3%;
+        }
+
+        .img-bg.bg5 {
+          width: 50px;
+          top: 5%;
+          left: 15%;
+        }
+
+        .img-bg.bg6 {
+          width: 60px;
+          top: 32%;
+          right: 1%;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-left {
+      padding: 2rem;
+      h3 {
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 }
 
