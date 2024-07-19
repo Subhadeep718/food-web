@@ -500,7 +500,7 @@
   main #PRODUCT.section,
   main #PRODUCT1.section {
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 2rem;
   }
   main #PRODUCT.section .prom-img,
   main #PRODUCT1.section .prom-img {
@@ -555,6 +555,7 @@
     padding: 0.8rem 1rem;
   }
   footer {
+    padding: 1.5rem;
     flex-wrap: wrap;
   }
   footer .footer-left {
@@ -570,5 +571,28 @@
     width: 100%;
     padding: 0 2rem;
     gap: 1%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  header nav .logo-img i {
+    font-size: 2rem;
+  }
+  main #CONTACT.section .input {
+    width: 280px;
+  }
+  main #CONTACT.section .input input {
+    padding: 0.6rem;
+  }
+  main #CONTACT.section .input .btn {
+    padding: 0.6rem;
+  }
+  footer {
+    padding: 0;
+  }
+  footer .footer-left {
+    padding: 1rem;
+  }
+  footer .footer-right {
+    padding: 0 1rem;
   }
 }/*# sourceMappingURL=responsive.css.map */

@@ -710,7 +710,7 @@
     #PRODUCT.section,
     #PRODUCT1.section {
       flex-wrap: wrap;
-      padding: 1rem;
+      padding: 2rem;
 
       .prom-img {
         width: 50%;
@@ -781,6 +781,7 @@
   }
 
   footer {
+    padding: 1.5rem;
     flex-wrap: wrap;
 
     .footer-left {
@@ -804,4 +805,37 @@
 }
 
 @media only screen and (max-width: 375px) {
+  header {
+    nav {
+      .logo-img {
+        i {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  main {
+    #CONTACT.section {
+      .input {
+        width: 280px;
+        input {
+          padding: 0.6rem;
+        }
+        .btn {
+          padding: 0.6rem;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 0;
+    .footer-left {
+      padding: 1rem;
+    }
+    .footer-right {
+      padding: 0 1rem;
+    }
+  }
 }
