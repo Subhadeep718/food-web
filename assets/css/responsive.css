@@ -551,4 +551,24 @@
   main #CONTACT.section .input input {
     padding: 0.8rem;
   }
+  main #CONTACT.section .input .btn {
+    padding: 0.8rem 1rem;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .footer-left {
+    padding: 2rem;
+    width: 100%;
+  }
+  footer .footer-left .icon i {
+    width: 40px;
+    height: 40px;
+    padding: 0.7rem;
+  }
+  footer .footer-right {
+    width: 100%;
+    padding: 0 2rem;
+    gap: 1%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
