@@ -328,14 +328,16 @@
     }
   }
 
-  // footer{
-  //   footer-left{
-
-  //   }
-  //   footer-right{
-
-  //   }
-  // }
+  footer {
+    gap: 10%;
+    .footer-left {
+      padding: 3rem 0 3rem 2rem;
+    }
+    .footer-right {
+      width: 60%;
+      gap: 5%;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -633,11 +635,37 @@
       h3 {
         margin-bottom: 0.5rem;
       }
+      p {
+        font-size: 0.9rem;
+      }
+      .icon {
+        i {
+          width: 40px;
+          height: 32px;
+          padding: 0.5rem;
+        }
+      }
+    }
+    .footer-right {
+      ul {
+        li {
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+        }
+      }
     }
   }
 }
 
 @media only screen and (max-width: 576px) {
+  header {
+    nav {
+      ul {
+        display: none;
+      }
+    }
+  }
+
   main {
     #HOME.section {
       padding-left: 1rem;
@@ -651,6 +679,99 @@
         P {
           font-size: 0.8rem;
           line-height: 1rem;
+        }
+      }
+    }
+
+    #HOME1.section {
+      p {
+        padding: 0 1rem;
+        margin-bottom: 0.8rem;
+        font-size: 0.8rem;
+      }
+      .box {
+        gap: 0px;
+        flex-wrap: wrap;
+
+        .card {
+          .text {
+            h5 {
+              font-size: 1.2rem;
+              margin-bottom: 0rem;
+            }
+            p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+
+    #PRODUCT.section,
+    #PRODUCT1.section {
+      flex-wrap: wrap;
+      padding: 1rem;
+
+      .prom-img {
+        width: 50%;
+        padding: 0 0 1rem;
+      }
+
+      .prom-text {
+        width: 100%;
+        text-align: center;
+        p {
+          margin-bottom: 1rem;
+          padding: 0 0.8rem;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    #PRODUCT1.section {
+      flex-direction: column-reverse;
+    }
+
+    #PROM.section {
+      p {
+        font-size: 0.8rem;
+        padding: 0 1rem;
+      }
+
+      .prom-box {
+        margin: 1rem auto;
+        flex-direction: column;
+        gap: 20px;
+
+        .circle {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+
+    #PRICE.section {
+      padding: 2rem 1.5rem;
+    }
+
+    #ABOUT.section {
+      .about {
+        p {
+          font-size: 0.8rem;
+          line-height: 1.1rem;
+        }
+      }
+    }
+
+    #CONTACT.section {
+      p {
+        padding: 0 1rem;
+        font-size: 0.8rem;
+      }
+      .input {
+        width: 330px;
+        input {
+          padding: 0.8rem;
         }
       }
     }
