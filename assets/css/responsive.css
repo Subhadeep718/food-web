@@ -537,6 +537,9 @@
   main #PRICE.section {
     padding: 2rem 1.5rem;
   }
+  main #ABOUT.section {
+    padding: 0rem 1rem;
+  }
   main #ABOUT.section .about p {
     font-size: 0.8rem;
     line-height: 1.1rem;
