@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1920px) {
+  .hamburger {
+    display: none;
+  }
+}
 @media only screen and (max-width: 1299px) {
   header nav {
     padding: 1.5rem 0;
@@ -467,6 +472,16 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  header nav .hamburger {
+    display: flex;
+    width: 30%;
+    height: auto;
+    color: #fff;
+    padding-left: 3rem;
+  }
+  header nav .hamburger i {
+    font-size: 2rem;
+  }
   header nav ul {
     display: none;
   }
