@@ -21,24 +21,28 @@ $('.owl-carousel').owlCarousel({
 
 
 
-// let btn = document.querySelector(".hamburger");
-// let i = document.querySelector(".bar-change");
-// let ul = document.querySelector("ul")
-
-// btn.addEventListener("click", () =>{
-//     i.classList.toggle("fa-xmark");
-//     ul.style.display = 'flex';
-// });
-
 let btn = document.querySelector(".hamburger");
 let i = document.querySelector(".bar-change");
 let ul = document.querySelector("ul");
+let main = document.querySelector("main");
 
 btn.addEventListener("click", () => {
-    i.classList.toggle("fa-xmark");
     if (ul.style.display === 'flex') {
         ul.style.display = 'none';
+        main.style.display = 'block';
+        i.classList.remove("fa-xmark");
     } else {
         ul.style.display = 'flex';
+        main.style.display = 'none';
+        i.classList.add("fa-xmark");
     }
 });
+
+ul.querySelectorAll("li").forEach(li => {
+    li.addEventListener("click", () => {
+        ul.style.display = 'none';
+        main.style.display = 'block';
+        i.classList.remove("fa-xmark");
+    });
+});
+
