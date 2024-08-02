@@ -16,3 +16,29 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+
+
+// let btn = document.querySelector(".hamburger");
+// let i = document.querySelector(".bar-change");
+// let ul = document.querySelector("ul")
+
+// btn.addEventListener("click", () =>{
+//     i.classList.toggle("fa-xmark");
+//     ul.style.display = 'flex';
+// });
+
+let btn = document.querySelector(".hamburger");
+let i = document.querySelector(".bar-change");
+let ul = document.querySelector("ul");
+
+btn.addEventListener("click", () => {
+    i.classList.toggle("fa-xmark");
+    if (ul.style.display === 'flex') {
+        ul.style.display = 'none';
+    } else {
+        ul.style.display = 'flex';
+    }
+});
