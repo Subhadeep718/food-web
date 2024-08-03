@@ -28,8 +28,6 @@ $red: #f64b3c;
 $bg-color: #f6eedf;
 $white: #fff;
 
-
-
 @mixin h2 {
   font-size: 2.5rem;
   line-height: 2.8rem;
@@ -91,7 +89,6 @@ header {
         padding: 0.5rem 1rem;
         transition: all 0.5s ease-in;
 
-
         &:hover {
           background: $red;
           border-radius: 20px;
@@ -144,7 +141,6 @@ main {
     // margin: 2rem 0 8rem;
     padding-left: 7rem;
     color: $white;
-
 
     .text-home {
       height: auto;
@@ -497,6 +493,42 @@ main {
     background: $bg-color;
     position: relative;
 
+    .owl-nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+    }
+
+    button.owl-prev {
+      position: absolute;
+      top: 11rem;
+      left: -4%;
+      font-size: 4rem !important;
+      &:hover {
+        color: #000000;
+        text-decoration: none;
+        background: transparent;
+        transition: all 0.5s ease-in;
+      }
+    }
+    button.owl-next {
+      position: absolute;
+      top: 11rem;
+      right: -4%;
+      font-size: 4rem !important;
+      &:hover {
+        color: #000000;
+        text-decoration: none;
+        background: transparent;
+        transition: all 0.5s ease-in;
+      }
+    }
+
     .box-bg {
       position: absolute;
       height: 100%;
@@ -560,9 +592,6 @@ main {
     }
 
     #my-package1 {
-
-
-
       .item {
         .price-box {
           background: $white;

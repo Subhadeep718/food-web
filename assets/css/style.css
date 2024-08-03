@@ -421,6 +421,40 @@ main #PRICE.section {
   background: #f6eedf;
   position: relative;
 }
+main #PRICE.section .owl-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+main #PRICE.section button.owl-prev {
+  position: absolute;
+  top: 11rem;
+  left: -4%;
+  font-size: 4rem !important;
+}
+main #PRICE.section button.owl-prev:hover {
+  color: #000000;
+  text-decoration: none;
+  background: transparent;
+  transition: all 0.5s ease-in;
+}
+main #PRICE.section button.owl-next {
+  position: absolute;
+  top: 11rem;
+  right: -4%;
+  font-size: 4rem !important;
+}
+main #PRICE.section button.owl-next:hover {
+  color: #000000;
+  text-decoration: none;
+  background: transparent;
+  transition: all 0.5s ease-in;
+}
 main #PRICE.section .box-bg {
   position: absolute;
   height: 100%;
